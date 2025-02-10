@@ -20,7 +20,7 @@
 
 | Темная 🌑 | Светлая ☀️ | Цветная 🌈 |
 |-----------|------------|------------|
-| ![Темная тема](https://via.placeholder.com/200x100/2D2D2D/FFFFFF?text=Dark+Theme) | ![Светлая тема](https://via.placeholder.com/200x100/F5F5F5/000000?text=Light+Theme) | ![Цветная тема](https://via.placeholder.com/200x100/FF6B6B/FFFFFF?text=Colorful) |
+| ![Темная тема](./dark_theme.png) | ![Светлая тема](./light_theme.png) | ![Цветная тема](./colorful_theme.png) |
 
 ---
 
