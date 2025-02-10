@@ -1,0 +1,46 @@
+@media (max-width: 768px)
+{
+    .timeline::before
+    {
+        left: 0;
+    }
+
+    .timeline-item
+    {
+        width: 100%;
+        left: 0 !important;
+        padding-left: 2rem;
+    }
+
+    .timeline-item .date
+    {
+        position: relative;
+        left: 0 !important;
+        right: 0 !important;
+        margin-bottom: 1rem;
+        text-align: left;
+        width: auto;
+    }
+
+    .hero-content h1
+    {
+        font-size: 2rem;
+    }
+
+    .projects-grid
+    {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media print
+{
+    body { background: #fff !important; }
+    section { padding: 3rem 1rem; }
+    h1, h3, i { color: #000 !important; }
+    h2 { font-size: 1.8rem; margin-bottom: 2rem; }
+    .scroll-progress, .theme-switcher, footer, header, #fio { display: none; }
+    .project-card, .skill-card { break-inside: avoid; }
+    .timeline-item .content { padding: 1rem; }
+    #skills { margin-bottom: 12em; }
+}

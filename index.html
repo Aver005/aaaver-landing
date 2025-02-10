@@ -1,0 +1,212 @@
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме разработчика</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body class="theme-dark">
+    <div class="theme-switcher">
+        <button class="theme-btn theme-btn-dark" data-theme="dark" onclick="setTheme('dark')">
+            <i class="fas fa-moon"></i>
+        </button>
+        <button class="theme-btn theme-btn-light" data-theme="light" onclick="setTheme('light')">
+            <i class="fas fa-sun"></i>
+        </button>
+        <button class="theme-btn theme-btn-colorful" data-theme="colorful" onclick="setTheme('colorful')">
+            <i class="fas fa-palette"></i>
+        </button>
+    </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#skills">Навыки</a></li>
+                <li><a href="#experience">Опыт</a></li>
+                <li><a href="#projects">Проекты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Ведущий программист-разработчик</h1>
+                <h2 id="fio">Аверьянов Артемий Алексеевич</h2>
+                <p>Создаю инновационные решения для сложных задач</p>
+                <div class="hero-badges">
+                    <span class="hero-badge">Тимлид</span>
+                    <span class="hero-badge">Full-stack разработчик</span>
+                    <span class="hero-badge">Game Developer</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2>Технические навыки</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-react"></i>
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>React <span class="experience-badge">3 года</span></li>
+                        <li>TypeScript <span class="experience-badge">1 год</span></li>
+                        <li>NextJS <span class="experience-badge">2 года</span></li>
+                        <li>Vite <span class="experience-badge">1.5 года</span></li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fab fa-python"></i>
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Python <span class="experience-badge">6 лет</span></li>
+                        <li>Flask <span class="experience-badge">4 года</span></li>
+                        <li>SQL <span class="experience-badge">8 лет</span></li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-gamepad"></i>
+                    <h3>Game Dev</h3>
+                    <ul>
+                        <li>Unity <span class="experience-badge">4 года</span></li>
+                        <li>C# <span class="experience-badge">5 лет</span></li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-plug"></i>
+                    <h3>API</h3>
+                    <ul>
+                        <li>Matrix JS SDK <span class="experience-badge">1 год</span></li>
+                        <li>Telegram API <span class="experience-badge">4 года</span></li>
+                        <li>LiveKit <span class="experience-badge">6 мес</span></li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-pencil-ruler"></i>
+                    <h3>Design & Version Control</h3>
+                    <ul>
+                        <li>Figma <span class="experience-badge">2 года</span></li>
+                        <li>Markdown <span class="experience-badge">3 года</span></li>
+                        <li>Git <span class="experience-badge">5 лет</span></li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>IDE & Editors</h3>
+                    <ul>
+                        <li>VSCode <span class="experience-badge">4 года</span></li>
+                        <li>PyCharm <span class="experience-badge">6 лет</span></li>
+                        <li>WebStorm <span class="experience-badge">2 года</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience">
+            <h2>Опыт работы</h2>
+
+            <div class="timeline">
+                <div class="timeline-item current">
+                    <div class="date">2024</div>
+                    <div class="content">
+                        <h3>РТА Технологии</h3>
+                        <p class="position">Ведущий программист-разработчик, Тимлид</p>
+                        <p>Руководитель команды разработки мультиагентной автоматизированной системы «Отамесседж» —
+                            корпоративного мессенджера для безопасного общения и интеграции с внешними системами</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="date">2023 - 2024</div>
+                    <div class="content">
+                        <h3>FoxFord</h3>
+                        <p class="position">Преподаватель Python</p>
+                        <p>6 месяцев работы в образовательной платформе</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="date">2022 - 2023</div>
+                    <div class="content">
+                        <h3>Maxima</h3>
+                        <p class="position">Преподаватель JS и Python</p>
+                        <p>1 год работы в онлайн-школе</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="date">2021 - 2023</div>
+                    <div class="content">
+                        <h3>Kodland</h3>
+                        <p class="position">Преподаватель Python и Unity</p>
+                        <p>2 года работы в международной онлайн-школе программирования</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Проекты</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path
+                                d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+                        </svg>
+                    </div>
+                    <h3>Отамесседж</h3>
+                    <p>Мультиагентнаяя автоматизированная система «Отамесседж» — корпоративный мессенджер для
+                        безопасного общения и интеграции с внешними системами</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Vite</span>
+                        <span>TypeScript</span>
+                    </div>
+                    <ul class="project-achievements">
+                        <li>Руковожу командой проекта и оптимизирую процесс разработки</li>
+                        <li>Внедрил систему ВКС и голосовые сообщения</li>
+                        <li>Предложил и реализовал систему шаблонов и переменных для шаблонов</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" />
+                            <line x1="7" y1="7" x2="7.01" y2="7" />
+                        </svg>
+                    </div>
+                    <h3>Meditek-M</h3>
+                    <p>Онлайн-маркетплейс для оформления заказов на медицинские препараты</p>
+                    <div class="project-tech">
+                        <span>Flask</span>
+                        <span>SQL</span>
+                        <span>Python</span>
+                    </div>
+                    <ul class="project-achievements">
+                        <li>Поддерживаю, обновляю и улучшаю систему как со стороны клиента, так и со стороны
+                            администрации</li>
+                        <li>Адаптировал всю систему на мобильные устройства</li>
+                        <li>Реализовал поддержку экспорта и импорта данных из Excel по собственному формату</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p> 2025 • Разработано с <i class="fas fa-heart"></i></p>
+    </footer>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
